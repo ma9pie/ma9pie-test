@@ -1,19 +1,17 @@
 {
   "name": "@ma9pie/test",
   "version": "0.0.2",
-  "type": "module",
+  "repository": "https://github.com/ma9pie/ma9pie-test",
+  "description": "hello world",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "build": "yarn build:tsc",
-    "build:tsc": "yarn tsc"
+    "start": "ts-node .",
+    "prebuild": "rm -rf dist",
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
   },
-  "exports": {
-    ".": {
-      "import": "./dist/index.js",
-      "require": "./src/index.cjs",
-      "types": "./dist/index.d.ts"
-    }
-  },
+  "author": "ma9pie",
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^18.15.0",
