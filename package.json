@@ -14,12 +14,13 @@
     "access": "public"
   },
   "scripts": {
-    "start": "ts-node .",
     "prebuild": "rm -rf dist",
     "build": "tsc",
-    "prepublishOnly": "npm run build",
     "test": "jest",
-    "patch": "npm version patch"
+    "test:watch": "jest --watchAll",
+    "patch": "npm version patch",
+    "minor": "npm version minor",
+    "major": "npm version major"
   },
   "devDependencies": {
     "@types/jest": "^29.5.12",
