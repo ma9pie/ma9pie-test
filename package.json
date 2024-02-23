@@ -1,6 +1,6 @@
 {
   "name": "@ma9pie/test",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "description": "hello world",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
