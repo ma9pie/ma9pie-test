@@ -1,6 +1,6 @@
 {
   "name": "@ma9pie/test-package",
-  "version": "0.0.17",
+  "version": "0.0.18",
   "description": "hello world",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
