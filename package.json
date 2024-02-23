@@ -15,7 +15,8 @@
     "prebuild": "rm -rf dist",
     "build": "tsc",
     "prepublishOnly": "npm run build",
-    "test": "jest"
+    "test": "jest",
+    "patch": "npm version patch"
   },
   "devDependencies": {
     "@types/jest": "^29.5.12",
