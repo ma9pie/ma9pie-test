@@ -30,6 +30,11 @@ jobs:
       - name: Build react source
         run: npm run build
 
+      - name: Login to NPM
+        run: npm adduser
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
       - name: Publish npm package
         run: npm publish
         env:
