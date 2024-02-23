@@ -1,5 +1,5 @@
 {
-  "name": "@ma9pie/test",
+  "name": "@ma9pie/test-package",
   "version": "0.0.17",
   "description": "hello world",
   "main": "dist/index.js",
@@ -8,7 +8,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ma9pie/ma9pie-test"
+    "url": "https://github.com/ma9pie/test-package"
   },
   "publishConfig": {
     "access": "public"
