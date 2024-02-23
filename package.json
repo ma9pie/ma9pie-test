@@ -1,12 +1,15 @@
 {
   "name": "@ma9pie/test",
   "version": "0.0.13",
-  "repository": "git+https://github.com/ma9pie/ma9pie-test",
   "description": "hello world",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "author": "ma9pie",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ma9pie/ma9pie-test"
+  },
   "publishConfig": {
     "access": "public"
   },

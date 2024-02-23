@@ -3,7 +3,7 @@ name: Main Git Action
 on:
   push:
     tags:
-      - v**
+      - v*
 
 jobs:
   build:
@@ -11,6 +11,12 @@ jobs:
     steps:
       - name: Checkout Source Code
         uses: actions/checkout@v2
+
+      - name: Setup node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16.16.0
+          registry-url: "https://registry.npmjs.org"
 
       - name: Cache dependencies
         id: cache
@@ -22,7 +28,7 @@ jobs:
 
       - name: Install dependencies
         if: steps.cache.outputs.cache-hit != 'true'
-        run: npm install
+        run: npm ci
 
       - name: Run test
         run: npm run test
