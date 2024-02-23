@@ -7,11 +7,12 @@
     "outDir": "dist",
     "strict": true,
     "moduleResolution": "node",
+    "jsx": "preserve",
     "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"]
     }
   },
-  "include": ["src/*", "src/utils/index.ts"],
-  "exclude": ["src/__test__"]
+  "include": ["src/*", "index.ts"],
+  "exclude": ["node_modules", "src/__test__"]
 }
