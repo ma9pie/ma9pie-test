@@ -30,6 +30,7 @@ jobs:
       - name: Build react source
         run: npm run build
 
+      - name: Publish npm package
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
