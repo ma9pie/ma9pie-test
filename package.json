@@ -25,8 +25,7 @@
     "build-storybook": "storybook build",
     "patch": "npm version patch",
     "minor": "npm version minor",
-    "major": "npm version major",
-    "publish": "npm publish"
+    "major": "npm version major"
   },
   "devDependencies": {
     "@emotion/css": "^11.11.2",
