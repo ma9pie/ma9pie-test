@@ -1,8 +1,8 @@
-import { useEffect } from "react";
+import { useEffect } from 'react';
 
 const useHelloWorld = () => {
   useEffect(() => {
-    console.log("hello world");
+    console.log('hello world');
   }, []);
   return {};
 };

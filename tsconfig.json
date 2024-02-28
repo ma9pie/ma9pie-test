@@ -1,17 +1,23 @@
 {
   "compilerOptions": {
-    "target": "es6",
-    "module": "ES6",
-    "lib": ["es5", "es6", "dom"],
-    "declaration": true,
-    "outDir": "dist",
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
     "strict": true,
-    "jsx": "preserve",
-    "moduleResolution": "node",
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
     "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./src/*"],
+      "@/images/*": ["public/images/*"]
     }
   },
   "include": ["src/**/*.ts", "src/**/*.tsx"],
