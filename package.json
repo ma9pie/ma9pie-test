@@ -4,7 +4,10 @@
   "description": "hello world",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "author": "ma9pie",
+  "author": {
+    "name": "ma9pie",
+    "email": "ma9pie.dev@gmail.com"
+  },
   "license": "MIT",
   "repository": {
     "type": "git",
