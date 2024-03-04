@@ -1,6 +1,6 @@
 import type { Meta } from '@storybook/react';
 
-import { HelloWorld } from '@/components';
+import { HelloWorld } from '../components';
 
 const meta = {
   title: 'Components/HelloWorld',

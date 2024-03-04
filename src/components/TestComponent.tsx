@@ -1,10 +1,8 @@
 import React from 'react';
-import tw, { styled } from 'twin.macro';
+import styled from '@emotion/styled';
 
 export const TestComponent = () => {
   return <Wrapper>TestComponent</Wrapper>;
 };
 
-const Wrapper = styled.div`
-  ${tw``};
-`;
+const Wrapper = styled.div``;

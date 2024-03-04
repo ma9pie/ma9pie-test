@@ -1,13 +1,22 @@
 {
   "compilerOptions": {
+    // JavaScript 코드의 ECMAScript 버전 설정
     "target": "es6",
+    // JavaScript 모듈 생성
     "module": "esnext",
+    // Node.js의 모듈 해석 알고리즘 사용
     "moduleResolution": "node",
+    // ??
     "lib": ["dom", "dom.iterable", "esnext"],
+    // 컴파일된 JavaScript 파일들이 저장될 디렉토리를 설정
     "outDir": "dist",
+    // JSX 코드의 컴파일 방식을 설정
     "jsx": "preserve",
+    // TypeScript .d.ts 타입 선언 파일 생성
     "declaration": true,
+    // CommonJS와 ES 모듈 사이의 상호 운용성을 위한 코드 생성
     "esModuleInterop": true,
+    // ??
     "skipLibCheck": true,
     "baseUrl": ".",
     "paths": {
@@ -16,5 +25,5 @@
     }
   },
   "include": ["src/**/*.ts", "src/**/*.tsx"],
-  "exclude": ["node_modules", "src/__test__"]
+  "exclude": ["node_modules", "**/*.test.ts"]
 }
