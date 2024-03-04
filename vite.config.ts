@@ -6,9 +6,9 @@ import dts from 'vite-plugin-dts';
 
 export default defineConfig({
   plugins: [
-    react(),
+    react({ jsxImportSource: '@emotion/react' }),
     dts({
-      insertTypesEntry: true, // 컴포넌트 타입 생성
+      insertTypesEntry: true,
     }),
     libCss(),
   ],
