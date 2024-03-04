@@ -8,9 +8,9 @@
     "moduleResolution": "node",
     // ??
     "lib": ["dom", "dom.iterable", "esnext"],
-    // 컴파일된 JavaScript 파일들이 저장될 디렉토리를 설정
+    // 컴파일된 JavaScript 파일들이 저장될 디렉토리 설정
     "outDir": "dist",
-    // JSX 코드의 컴파일 방식을 설정
+    // JSX 코드의 컴파일 방식 설정
     "jsx": "preserve",
     // TypeScript .d.ts 타입 선언 파일 생성
     "declaration": true,
