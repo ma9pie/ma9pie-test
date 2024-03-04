@@ -26,7 +26,7 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "prebuild": "rm -rf dist",
-    "build": "tsc",
+    "build": "vite build",
     "test": "jest",
     "test:watch": "jest --watchAll",
     "storybook": "storybook dev -p 6006",
@@ -58,11 +58,14 @@
     "@storybook/blocks": "^7.6.17",
     "@storybook/nextjs": "^7.6.17",
     "@storybook/react": "^7.6.17",
+    "@storybook/react-vite": "^7.6.17",
     "@storybook/react-webpack5": "^7.6.17",
     "@storybook/test": "^7.6.17",
     "@types/jest": "^29.5.12",
     "@types/node": "^20.11.21",
     "@types/react": "^18.2.61",
+    "@vitejs/plugin-react": "^4.2.1",
+    "@vitejs/plugin-react-swc": "^3.6.0",
     "babel-jest": "^29.7.0",
     "css-loader": "^6.10.0",
     "eslint": "^8.57.0",
@@ -72,6 +75,10 @@
     "style-loader": "^3.3.4",
     "ts-jest": "^29.1.2",
     "ts-loader": "^9.5.1",
-    "typescript": "^4.9.5"
+    "typescript": "^4.9.5",
+    "vite": "^4.5.2",
+    "vite-plugin-dts": "^3.7.3",
+    "vite-plugin-libcss": "^1.1.1",
+    "vite-tsconfig-paths": "^4.3.1"
   }
 }
