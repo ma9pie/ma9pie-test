@@ -1,2 +1,2 @@
-export { HelloWorld } from './HelloWorld';
-export { TestComponent } from './TestComponent';
+export { default as HelloWorld } from './HelloWorld';
+export { default as TestComponent } from './TestComponent';
