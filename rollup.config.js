@@ -34,7 +34,7 @@ const config = {
       // 번들링한 파일을 저장 할 경로
       file: pkg.main,
       // ES Module 형태로 번들링함
-      format: 'cjs',
+      format: 'esm',
     },
     // {
     //   file: 'dist/es/index.d.ts',
