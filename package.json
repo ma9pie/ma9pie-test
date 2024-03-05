@@ -23,8 +23,7 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "prebuild": "rm -rf dist",
-    "build": "rollup -c",
-    "build:types": "tsc --emitDeclarationOnly",
+    "build": "rollup -c && tsc --emitDeclarationOnly",
     "test": "jest",
     "test:watch": "jest --watchAll",
     "storybook": "storybook dev -p 6006",
