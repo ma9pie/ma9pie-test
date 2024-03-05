@@ -5,6 +5,4 @@ export const TestComponent = () => {
   return <Wrapper>TestComponent</Wrapper>;
 };
 
-export default TestComponent;
-
 const Wrapper = styled.div``;

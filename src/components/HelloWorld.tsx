@@ -1,11 +1,9 @@
 import styled from '@emotion/styled';
 import React from 'react';
 
-const HelloWorld = () => {
+export const HelloWorld = () => {
   return <Wrapper>HelloWorld</Wrapper>;
 };
-
-export default HelloWorld;
 
 const Wrapper = styled.div`
   display: flex;
