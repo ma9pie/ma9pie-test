@@ -31,23 +31,13 @@ const config = {
   ],
   output: [
     {
-      // 번들링한 파일을 저장 할 경로
       file: pkg.main,
-      // ES Module 형태로 번들링함
+      format: 'cjs',
+    },
+    {
+      file: pkg.module,
       format: 'esm',
     },
-    // {
-    //   file: 'dist/es/index.d.ts',
-    //   format: 'es',
-    // },
-    // {
-    //   file: 'dist/esm/index.d.ts',
-    //   format: 'esm',
-    // },
-    // {
-    //   file: 'dist/cjs/index.d.ts',
-    //   format: 'cjs',
-    // },
   ],
 };
 
