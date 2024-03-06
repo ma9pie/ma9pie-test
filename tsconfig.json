@@ -29,8 +29,6 @@
     /* Completeness */
     "skipLibCheck": true // 외부 라이브러리의 선언 파일을 검사하지 않도록 설정(컴파일 속도 관련)
   },
-  // 컴파일할 파일 지정
-  "include": ["src"],
-  // 컴파일에서 제외할 파일 지정
-  "exclude": ["**/*.stories.tsx", "**/*.test.ts"]
+  "include": ["src"], // 컴파일할 파일 지정
+  "exclude": ["**/*.stories.tsx", "**/*.test.ts"] // 컴파일에서 제외할 파일 지정
 }
